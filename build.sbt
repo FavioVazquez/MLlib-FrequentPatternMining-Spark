@@ -12,8 +12,6 @@ libraryDependencies ++= Seq(
   "org.apache.logging.log4j" % "log4j-api" % "2.2",
   "com.databricks" % "spark-csv_2.10" % "1.0.3",
   "org.apache.logging.log4j" % "log4j-core" % "2.2"
-  //  "org.apache.hadoop" % "hadoop-client" % "2.5.0-cdh5.3.3",
-  //  "org.apache.hadoop" % "hadoop-hdfs" % "2.5.0-cdh5.3.3"
 )
 
 assemblyJarName in assembly := "MLlib-FrequentPatternMining.jar"
